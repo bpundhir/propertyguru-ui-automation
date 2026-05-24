@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Automation Suite" verbose="1" parallel="none">
+    <test name="Framework Validation">
+        <classes>
+            <class name="com.cars24.automation.tests.framework.FrameworkConfigurationTest"/>
+        </classes>
+    </test>
+    <test name="PropertyGuru Smoke Tests">
+        <classes>
+            <class name="com.cars24.automation.tests.propertyguru.SaleListingsSmokeTest"/>
+        </classes>
+    </test>
+</suite>
